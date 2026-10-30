@@ -1,0 +1,25 @@
+{
+  "currency": "INR",
+  "note": "Placeholder numbers for the prototype. Cynbit should replace them with real rates.",
+  "projectTypes": [
+    { "id": "website",   "label": "Business website",        "hint": "Marketing site, 5-10 pages", "price": 25000,  "days": 14 },
+    { "id": "ecommerce", "label": "Online store",            "hint": "Catalogue, cart, checkout",  "price": 60000,  "days": 30 },
+    { "id": "webapp",    "label": "Custom web app",          "hint": "Dashboards, portals, tools", "price": 90000,  "days": 45 },
+    { "id": "mobile",    "label": "Mobile app",              "hint": "Android and iOS",            "price": 150000, "days": 60 }
+  ],
+  "features": [
+    { "id": "auth",      "label": "User login and accounts", "price": 15000, "days": 5 },
+    { "id": "payments",  "label": "Online payments",         "price": 20000, "days": 7 },
+    { "id": "admin",     "label": "Admin panel",             "price": 25000, "days": 10 },
+    { "id": "blog",      "label": "Blog with CMS",           "price": 10000, "days": 4 },
+    { "id": "seo",       "label": "Technical SEO setup",     "price": 8000,  "days": 3 },
+    { "id": "whatsapp",  "label": "WhatsApp and email alerts","price": 7000, "days": 3 },
+    { "id": "analytics", "label": "Analytics dashboard",     "price": 18000, "days": 6 }
+  ],
+  "timelines": [
+    { "id": "flexible", "label": "Flexible",  "hint": "No hard deadline", "priceFactor": 0.95, "daysFactor": 1.2 },
+    { "id": "standard", "label": "Standard",  "hint": "Normal pace",      "priceFactor": 1,    "daysFactor": 1 },
+    { "id": "fast",     "label": "Fast track","hint": "Larger team, priority", "priceFactor": 1.25, "daysFactor": 0.7 }
+  ],
+  "rangeSpread": 0.15
+}
